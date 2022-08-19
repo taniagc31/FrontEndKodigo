@@ -23,7 +23,8 @@ color: white;
 background-color: blue;
 font-family: helvetica, sans-serif;
 font-weight: bold;
-margin-right: 0px;
+margin: auto 0;
+display: inline;
 }
 
 .eliminar{
@@ -31,7 +32,8 @@ margin-right: 0px;
     background-color: darkred;
     font-family: helvetica, sans-serif;
     font-weight: bold;
-    margin-left: 0px;
+    margin: 0 auto;
+    display: inline;
 }
 
 .generico{
