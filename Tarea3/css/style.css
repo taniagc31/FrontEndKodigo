@@ -1,0 +1,153 @@
+:root {
+    --white: #ffffff;
+    --body: #545d6d;
+    --dark: #202631;
+    --border-color: rgba(0, 0, 0, 0.10);
+    --border-width: 1px;
+    --border-radius: 30px;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+    line-height: 1.8;
+    color: var(--body);
+    background-image: url(../img/qbkls.png);
+}
+
+h1,h2 {
+    font-weight: 800;
+    color: var(--dark);
+    margin-bottom: 25px;
+}
+
+a {
+    color: var(--body);
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 700;
+}
+
+a:hover {
+    color: var(--dark);
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* navbar */
+.navbar {
+    position: absolute;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    z-index: 9999;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.social-links {
+    width: 75px;
+    height: 75px;
+    background-color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        background-color: var(--dark);
+    }
+}
+
+/* hero */
+#hero {
+    background: url(../img/shahadat-rahman-BfrQnKBulYQ-unsplash.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero h1,
+#hero p {
+    color: var(--white);
+}
+
+#hero h1 {
+    font-weight: 900;
+}
+
+#hero p {
+    font-size: 18px;
+    max-width: 450px;
+}
+
+/* btn */
+.btn {
+    padding: 20px 44px;
+    border-width: 2px;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* about me*/
+#aboutme img {
+    border-radius: var(--border-radius);
+}
+
+  /* Service */
+.skills {
+    border: var(--border-width) solid var(--border-color);
+    border-radius: var(--border-radius);
+    display: flex;
+    padding: 32px;
+}
+
+.skills .icon {
+    width: 100px;
+    height: 100px;
+    background-color: var(--dark);
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    color: white;
+    border-radius: var(--border-radius);
+    margin-right: 16px;
+}
+
+#education {
+width: 50%;
+margin: auto;
+}
+
+p {
+    text-align: justify;
+  text-justify: inter-word;
+  font-size: large;
+}
+
+#carrusel{
+    width: 70%;
+    margin: auto;
+}
